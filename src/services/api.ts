@@ -1,4 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://medicaloptionall.vercel.app/';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://backend-2p5d.onrender.com';
 
 class ApiService {
   private async request(endpoint: string, options: RequestInit = {}) {
